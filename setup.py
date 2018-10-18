@@ -6,7 +6,7 @@ long_description = open('README.rst', 'r').read()
 setup(
     name='phoopy-console',
     version=phoopy.console.__version__,
-    packages=['phoopy', 'phoopy.console'],
+    packages=['phoopy', 'phoopy.console', 'phoopy.console.helper'],
     setup_requires=['wheel'],
     install_requires=['phoopy-kernel>=1.1.0,<1.2.0','cleo==0.6.8'],
     description="Console library for phoopy framework",
