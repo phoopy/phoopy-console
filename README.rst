@@ -1,9 +1,11 @@
 phoopy-console
-======
+===============
 
 |Build Status| |Version| |Pyversions|
 
 Console library for phoopy framework
+
+`Documentation <https://github.com/phoopy/phoopy-console/blob/master/DOCUMENTATION.md>`_
 
 
 .. |Build Status| image:: https://travis-ci.org/phoopy/phoopy-console.svg
