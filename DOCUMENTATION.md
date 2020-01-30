@@ -7,11 +7,6 @@ Create a python file example `console`
 ```python
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import sys
-import os
-
-dirname = os.path.dirname(os.path.realpath(__file__))
-
 from phoopy.kernel import Kernel
 from phoopy.console import Application # noqa
 from cleo.inputs.argv_input import ArgvInput # noqa
