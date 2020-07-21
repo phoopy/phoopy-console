@@ -8,7 +8,10 @@ setup(
     version=phoopy.console.__version__,
     packages=['phoopy', 'phoopy.console', 'phoopy.console.helper'],
     setup_requires=['wheel'],
-    install_requires=['phoopy-kernel>=1.2.0,<1.3.0','cleo==0.6.8'],
+    install_requires=[
+        'phoopy-kernel>=1.2.0,<1.3.0',
+        'cleo==0.6.8'
+    ],
     description="Console library for phoopy framework",
     long_description=long_description,
     url='https://github.com/phoopy/phoopy-console',
