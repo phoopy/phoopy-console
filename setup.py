@@ -10,7 +10,7 @@ setup(
     setup_requires=['wheel'],
     install_requires=[
         'phoopy-kernel>=1.2.0,<1.3.0',
-        'cleo==0.6.8'
+        'cleo==2.0.0'
     ],
     description="Console library for phoopy framework",
     long_description=long_description,
